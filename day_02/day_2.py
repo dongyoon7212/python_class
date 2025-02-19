@@ -88,6 +88,7 @@ print(a[12:17]) #short
 print(a[19:]) #끝번호를 생략하면 끝까지 출력 #You need Python
 print(a[:17]) #시작번호를 생략하면 처음부터 출력 #Life is too short
 print(a[19:-7]) #19에서 -8까지를 의미 -7은 포함 하지 않는다. You need
+print(a[-7:5])
 print(a[::2]) #Lf stosot o edPto
 print(a[::-1]) #문자열 뒤집기 #nohtyP deen uoY ,trohs oot si efiL
 print("======================================================")
@@ -95,7 +96,7 @@ print("======================================================")
 #실습
 date = "20250218Rainy"
 date1 = "20240824Cloudy"
-print("년도 :", date1[0:4])
+print("년도 :", date[-5:-1])
 print("월일 :", date1[4:8])
 print("날씨 :", date1[8:])
 
