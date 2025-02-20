@@ -147,6 +147,8 @@ print(c.split(":"))
 #실습
 email = input("이메일을 입력하세요: ")  # example@gmail.com
 user_id = email[:email.index("@")]
+user_id = email[:email.find("@")]
+user_id = email.split("@")[0]
 print("이메일 아이디:", user_id)
 
 ssn = input("주민등록번호를 입력하세요 (예: 990101-1234567): ")
