@@ -112,3 +112,5 @@ print(alphabet.index("b"))
 # 튜플 언패킹 (각 변수에 값 할당)
 a, b, c = colors
 print(a, b, c)  # red green blue
+
+#test
