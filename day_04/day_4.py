@@ -105,3 +105,14 @@ list2 = [3, 4, 5, 6, 7]
 
 common = set(list1) & set(list2) #공통요소찾기
 print(common)
+
+class1 = {"철수", "영희", "민수", "지수"}
+class2 = {"영희", "민수", "지훈", "하늘"}
+
+common_students = class1 & class2  # 교집합
+only_class1 = class1 - class2  # 차집합
+only_class2 = class2 - class1  # 차집합
+
+print("공통 출석한 학생:", common_students)
+print("1반만 출석한 학생:", only_class1)
+print("2반만 출석한 학생:", only_class2)
